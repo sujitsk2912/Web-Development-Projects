@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right top, #051937, #1e2c6d, #5439a1, #9a39cc, #eb12eb);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header h2 {
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 5px black;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 10px;
+    text-align: center;
+}
+
+header p{
+    color: #fff;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 25vh;
+}
+
+.container .container-box{
+    position: relative;
+    background-color: #fff;
+    height: 35vh;
+    opacity: 85%;
+    width: 40rem;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.425);
+}
+
+.container-box h3{
+text-align: center;
+font-size: 20px;
+letter-spacing: 2px;
+padding-bottom: 20px;
+}
+
+.top #URL{
+    min-height: 40px;
+    min-width: 80%;
+    padding:0 10px 0 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.top #URL:hover{
+    border: 1px solid;
+    border-color: #000851;
+}
+
+
+.top #btnShort{
+    min-height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: #2c87c5;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+}
+
+.top #btnShort:hover{
+    cursor: pointer;
+}
+
+.copy-URL #Copy{
+    min-height: 40px;
+    min-width: 80%;
+    padding:0 10px 0 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.copy-URL #Copy:hover{
+    border: 1px solid;
+    border-color: #000851;
+}
+
+.copy-URL #btnCopy{
+    min-height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: #2c87c5;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+}
+
+.copy-URL #btnCopy:hover{
+    cursor: pointer;
+}
+
+.container-box p{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 17px;
+    color: red;
+}
+
+footer p{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-top: 10%;
+    padding-top: 35px;
+    padding-bottom: 18px;
+}
+
+/* Media query for screens up to 768 pixels wide */
+
+@media (max-width:1200px){
+
+    .container {
+        margin-top: 10vh;
+        padding: 40px;
+       }
+     
+       .container .container-box {
+           height:fit-content;
+           
+       }
+
+    footer p{
+        color: #fff;
+        font-size: 10px;
+        letter-spacing: 3px;
+        padding-top: 38px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .container {
+        margin-top: 10vh;
+        padding: 40px;
+       }
+     
+       .container .container-box {
+           height:fit-content;
+           
+       }
+   
+       .container #URL,#Copy{
+           width: 100%;
+       }
+       
+       .container #btnShort,#btnCopy{
+           margin-top: 10px;
+       }
+
+    footer p{
+        color: #fff;
+        font-size: 8px;
+        letter-spacing: 3px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+  }
+
+  @media (max-width: 578px) {
+
+    .container {
+     margin-top: 10vh;
+    }
+  
+    .container .container-box {
+        height:fit-content;
+    }
+
+    .container #URL,#Copy{
+        width: 100%;
+    }
+    
+    .container #btnShort,#btnCopy{
+        margin-top: 10px;
+    }
+
+    .container-box p{
+        margin-top: 10%;
+        text-align: center;
+        font-size: 15px;
+        color: red;
+    }
+
+    footer p{
+        color: #fff;
+        font-size: 10px;
+        letter-spacing: 3px;
+        padding-top: 40px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    
+  }
+  
+
+  
+  
+  

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Shortner Web Application | by Sujit </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h2>
+            URL Shortner
+        </h2>
+        <p>Designed by Sujit</p>
+    </header>
+
+    <div class="container">
+        <div class="container-box">
+            <h3>Paste the URL to be short:</h3>
+            <div class="top">
+                <input type="text" id="URL" placeholder="Paste the URL here">
+                <button id="btnShort" onclick="ShortURL()">Short URL</button>    
+            </div> 
+            <br>
+            <div class="copy-URL">
+                <input type="text" id="Copy" placeholder="Shortened URL">
+                <button id="btnCopy" onclick="CopyURL()">Copy</button>
+            </div>
+            <p id="results"></p>
+        </div>    
+    </div>
+    
+    <footer>
+        <p>Copyright &copy all rights reserved by sujit khangar 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
